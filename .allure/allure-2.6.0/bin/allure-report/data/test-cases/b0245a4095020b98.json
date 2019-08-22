@@ -1,0 +1,48 @@
+{
+  "uid" : "b0245a4095020b98",
+  "name" : "subtract positive test #1",
+  "fullName" : "soap.calculator.CalculatorPositiveTests.subtractPositiveTest",
+  "historyId" : "7a11f5b43008f495684f1f7e33108e47",
+  "time" : {
+    "start" : 1556020579987,
+    "stop" : 1556020580177,
+    "duration" : 190
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-M5OJQE6"
+  }, {
+    "name" : "thread",
+    "value" : "16072@DESKTOP-M5OJQE6.ForkJoinPool-1-worker-5(20)"
+  }, {
+    "name" : "package",
+    "value" : "soap.calculator.CalculatorPositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "soap.calculator.CalculatorPositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "subtractPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "soap.calculator.CalculatorPositiveTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0245a4095020b98.json",
+  "parameterValues" : [ ]
+}

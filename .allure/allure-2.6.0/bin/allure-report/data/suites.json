@@ -1,0 +1,105 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "soap.calculator.CalculatorPositiveTests",
+    "children" : [ {
+      "name" : "add positive test #3",
+      "uid" : "e57316454650b792",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556020668775,
+        "stop" : 1556020669205,
+        "duration" : 430
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "multiply positive test #1",
+      "uid" : "ca9668ae6a7dd324",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556020668775,
+        "stop" : 1556020669128,
+        "duration" : 353
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "divide positive test",
+      "uid" : "51a60351ad0f70f4",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1556020668775,
+        "stop" : 1556020669128,
+        "duration" : 353
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "multiply positive test #2",
+      "uid" : "e916fb2dee7781b0",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556020668775,
+        "stop" : 1556020669128,
+        "duration" : 353
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "subtract positive test #1",
+      "uid" : "da9fbdae423589be",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556020668775,
+        "stop" : 1556020669127,
+        "duration" : 352
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "add positive test #2",
+      "uid" : "f3b6f4e4aeb71cf3",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556020668775,
+        "stop" : 1556020669205,
+        "duration" : 430
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "add positive test #1",
+      "uid" : "eecbe86775c6966a",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556020668775,
+        "stop" : 1556020669127,
+        "duration" : 352
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "subtract positive test #2",
+      "uid" : "ccb690f458c37b91",
+      "parentUid" : "2402e45c6d85aab7fe648337c62c57e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1556020669543,
+        "stop" : 1556020669745,
+        "duration" : 202
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2402e45c6d85aab7fe648337c62c57e5"
+  } ]
+}

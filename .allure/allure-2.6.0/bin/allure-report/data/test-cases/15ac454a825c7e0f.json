@@ -1,0 +1,48 @@
+{
+  "uid" : "15ac454a825c7e0f",
+  "name" : "multiply positive test #1",
+  "fullName" : "soap.calculator.CalculatorPositiveTests.multiplyPositiveTest",
+  "historyId" : "becb2fd2aafe57b809c95a572398588a",
+  "time" : {
+    "start" : 1556020579454,
+    "stop" : 1556020579891,
+    "duration" : 437
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-M5OJQE6"
+  }, {
+    "name" : "thread",
+    "value" : "16072@DESKTOP-M5OJQE6.ForkJoinPool-1-worker-4(19)"
+  }, {
+    "name" : "package",
+    "value" : "soap.calculator.CalculatorPositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "soap.calculator.CalculatorPositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "multiplyPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "soap.calculator.CalculatorPositiveTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15ac454a825c7e0f.json",
+  "parameterValues" : [ ]
+}

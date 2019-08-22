@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "didn't get expected result ==> expected: <1> but was: <3>",
+      "children" : [ {
+        "name" : "divide positive test",
+        "uid" : "51a60351ad0f70f4",
+        "parentUid" : "8d815892ce9ad49ef29f2e5210fe3d4e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1556020668775,
+          "stop" : 1556020669128,
+          "duration" : 353
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d815892ce9ad49ef29f2e5210fe3d4e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,57 @@
+plugins {
+    id 'io.qameta.allure' version '2.5'
+    id 'java'
+}
+
+allure {
+    autoconfigure = true
+    version = '2.6.0'
+
+    useJUnit5 {
+        version = '2.6.0'
+    }
+}
+
+group 'com.maryG'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    testCompile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.26'
+    compile("org.junit.jupiter:junit-jupiter-api:5.4.2")
+    compile("org.junit.jupiter:junit-jupiter-params:5.4.2")
+    testRuntime("org.junit.jupiter:junit-jupiter-engine:5.4.2")
+    compile group: 'org.junit.platform', name: 'junit-platform-reporting', version: '1.5.0-M1'
+    compile group: 'io.qameta.allure', name: 'allure-junit5', version: '2.8.0'
+    compile 'com.sun.xml.ws:jaxws-ri:2.3.2'
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter-api:5.2.0'
+    )
+    testRuntimeOnly(
+            'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+    )
+}
+
+test {
+    useJUnitPlatform ()
+    systemProperty 'java.util.logging.manager', 'org.apache.logging.log4j.jul.LogManager'
+}
+
+task generateAllureReport(type: Exec) {
+    commandLine 'cmd', '/c', 'allure generate build/allure-results -o build/reports/allure --clean'
+}
+test.finalizedBy(generateAllureReport)
+
+task openAllureReport(type: Exec) {
+    commandLine 'cmd', '/c', 'allure open build/reports/allure'
+}
+
+generateAllureReport.finalizedBy(openAllureReport)
+
